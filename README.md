@@ -1,4 +1,8 @@
-# Crisp
+<p align="center">
+  <img src="./public/logo.svg" alt="Crisp logo" width="72" />
+</p>
+
+<h1 align="center">Crisp</h1>
 
 Crisp is a local transcript-based audio and video editor prototype. It lets a user import media, transcribe it, select words in the transcript, preview edits, and render a cleaned audio/video copy.
 
