@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Runtime media storage
+data/
+
+# Private local test assets that should not be published
+Example Video/
+Transcript and Timestamp/
+issue.md
+
+# Local assistant/editor metadata
+.claude/
+.agents/
+.codex/
+
+# OS/editor noise
+.DS_Store
+*.rtf

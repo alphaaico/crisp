@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Crisp transcript-based editor demo poster</title>
+  <desc id="desc">A product visual showing a video preview, waveform, transcript words, filler highlights, and edit boundary controls.</desc>
+  <rect width="1600" height="900" fill="#f7f7f3"/>
+  <rect x="56" y="52" width="1488" height="88" rx="28" fill="#fbfcf8" stroke="#dfe4dc"/>
+  <g transform="translate(96 82)">
+    <rect x="0" y="8" width="26" height="4" rx="2" fill="#28724f"/>
+    <rect x="12" y="18" width="36" height="4" rx="2" fill="#28724f" opacity=".88"/>
+    <rect x="26" y="28" width="42" height="4" rx="2" fill="#28724f" opacity=".74"/>
+    <text x="92" y="33" font-family="Manrope, Arial, sans-serif" font-size="42" font-weight="800" fill="#18201f">crisp</text>
+  </g>
+  <text x="740" y="107" font-family="DM Mono, monospace" font-size="19" letter-spacing="6" fill="#819087">TRANSCRIPT MEDIA EDITOR</text>
+  <circle cx="1031" cy="99" r="7" fill="#6fbd8e"/>
+  <text x="1060" y="107" font-family="DM Mono, monospace" font-size="19" letter-spacing="5" fill="#819087">open source</text>
+
+  <rect x="112" y="204" width="1376" height="252" rx="28" fill="#18201f"/>
+  <rect x="152" y="242" width="1296" height="176" rx="18" fill="#0c1211"/>
+  <rect x="552" y="242" width="496" height="176" fill="#28724f" opacity=".16"/>
+  <circle cx="210" cy="330" r="38" fill="#fbfcf8"/>
+  <polygon points="202,309 202,351 235,330" fill="#18201f"/>
+  <text x="1310" y="267" font-family="DM Mono, monospace" font-size="24" fill="#fbfcf8">0:07.5 / 0:18.6</text>
+  <rect x="196" y="396" width="1216" height="8" rx="4" fill="#dfe4dc" opacity=".88"/>
+  <rect x="196" y="396" width="540" height="8" rx="4" fill="#6fbd8e"/>
+  <rect x="710" y="382" width="8" height="36" rx="4" fill="#fbfcf8"/>
+
+  <rect x="112" y="500" width="1376" height="98" rx="22" fill="#fbfcf8" stroke="#dfe4dc"/>
+  <text x="156" y="560" font-family="DM Mono, monospace" font-size="19" letter-spacing="4" fill="#819087">SPOKEN NOW</text>
+  <text x="390" y="562" font-family="Manrope, Arial, sans-serif" font-size="34" fill="#647069">affordability</text>
+  <text x="638" y="562" font-family="Manrope, Arial, sans-serif" font-size="34" fill="#647069">as</text>
+  <rect x="708" y="524" width="78" height="56" rx="12" fill="#dcefe3" stroke="#28724f" stroke-width="5"/>
+  <text x="727" y="562" font-family="Manrope, Arial, sans-serif" font-size="36" font-weight="800" fill="#c9821e">um</text>
+  <text x="812" y="562" font-family="Manrope, Arial, sans-serif" font-size="34" fill="#647069">Ellen rightfully pointed out</text>
+
+  <g transform="translate(112 644)">
+    <text x="0" y="0" font-family="DM Mono, monospace" font-size="20" letter-spacing="5" fill="#819087">TRANSCRIPT</text>
+    <line x1="0" y1="34" x2="1376" y2="34" stroke="#dfe4dc" stroke-width="2"/>
+    <text x="0" y="106" font-family="Manrope, Arial, sans-serif" font-size="52" fill="#18201f">I mean maybe we should dare to dream because I think</text>
+    <rect x="1147" y="58" width="128" height="70" rx="13" fill="#dcefe3" stroke="#28724f" stroke-width="5"/>
+    <text x="1174" y="106" font-family="Manrope, Arial, sans-serif" font-size="52" font-weight="700" fill="#c9821e">uh</text>
+    <text x="0" y="190" font-family="Manrope, Arial, sans-serif" font-size="52" fill="#18201f">the Internet and access access to it and affordability as</text>
+    <rect x="1215" y="142" width="138" height="70" rx="13" fill="#dcefe3" stroke="#28724f" stroke-width="5"/>
+    <text x="1255" y="190" font-family="Manrope, Arial, sans-serif" font-size="52" font-weight="700" fill="#c9821e">um</text>
+  </g>
+</svg>
+
