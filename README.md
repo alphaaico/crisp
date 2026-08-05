@@ -9,7 +9,7 @@ Crisp is a local transcript-based audio and video editor prototype. It lets a us
 The current prototype focuses on filler-word cleanup and timestamp-based editing.
 
 <p align="center">
-  <img src="./demo/crisp-demo-poster.png" alt="Crisp transcript-based editor demo" width="100%" />
+  <img src="./demo/crisp-social-preview.png" alt="Crisp transcript-based editor demo" width="100%" />
 </p>
 
 <p align="center">
