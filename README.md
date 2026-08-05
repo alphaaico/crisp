@@ -4,7 +4,13 @@ Crisp is a local transcript-based audio and video editor prototype. It lets a us
 
 The current prototype focuses on filler-word cleanup and timestamp-based editing.
 
-![Crisp demo poster](./demo/crisp-demo-poster.svg)
+<p align="center">
+  <img src="./demo/crisp-demo-poster.png" alt="Crisp transcript-based editor demo" width="100%" />
+</p>
+
+<p align="center">
+  <video src="./demo/crisp-demo.mp4" controls muted width="100%" title="Crisp demo video"></video>
+</p>
 
 ## Features
 
@@ -96,7 +102,7 @@ Example Audio/
   Optional sample audio file.
 
 demo/
-  Public demo poster and HyperFrames source composition.
+  Public demo poster, demo video, and HyperFrames source composition.
 
 data/uploads/
   Uploaded originals. Ignored by git.
@@ -207,15 +213,6 @@ silently second-guessed.
   transcription recovers fillers directly (see Transcription above).
 - Add safer defaults for video, where `Silence` is usually less destructive than `Remove`.
 
-## Demo Assets
-
-The repository includes a lightweight public demo poster at
-[`demo/crisp-demo-poster.svg`](./demo/crisp-demo-poster.svg).
-
-The HyperFrames source composition lives at
-[`demo/hyperframes/index.html`](./demo/hyperframes/index.html). If HyperFrames
-CLI is available, it can be rendered into a short demo reel from that directory.
-
 ## License
 
 Crisp is released under the MIT License.
@@ -238,21 +235,3 @@ corporate@alphaai.biz
 - Preview files are generated copies under `data/exports`.
 - Originals remain under `data/uploads` until final cleanup.
 - The current project state is in memory; restarting the API loses active project objects, though files remain on disk.
-
-## Open Source Publishing Notes
-
-The repository is intended to publish source code, package manifests, docs, and
-the optional small audio sample only.
-
-Do not commit:
-
-- `.env` or any real API keys.
-- `data/` runtime uploads, proxies, exports, or generated previews.
-- `Example Video/`.
-- `Transcript and Timestamp/`.
-- Local assistant/editor metadata such as `.claude/`.
-- Internal debugging notes such as `issue.md`.
-
-Before publishing, choose and add a license file. MIT is usually the simplest
-choice for a permissive open-source project, but the license should be selected
-explicitly by the project owner.
